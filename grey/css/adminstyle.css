@@ -1,0 +1,72 @@
+body{
+font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+}
+
+ form, button{border:0; margin:0; padding:0;}
+.spacer{clear:both; height:1px;}
+
+
+/* ----------- My Form ----------- */
+.myform{
+margin:0 auto;
+width:700px;
+padding:14px;
+}
+#top{
+align:centre;
+background: solid 2px #ebf4fb;
+background: #b7ddf2;
+}
+
+/* ----------- stylized ----------- */
+#stylized{
+align:centre;
+border:solid 5px #b7ddf2;
+background:#ebf4fb;
+}
+#stylize{
+align:centre;
+border:solid 5px #b7ddf2;
+background:#ebf4fb;
+}
+
+#stylized label{
+display:block;
+font-weight:bold;
+text-align:right;
+width:140px;
+float:left;
+}
+
+.wrapper{
+display:block;
+width:140px;
+font-size:12px;
+padding:4px 2px;
+border:solid 1px #aacfe4;
+width:665px;
+margin:2px 0 20px 10px;
+
+}
+
+#stylized input{
+float:left;
+font-size:12px;
+padding:4px 2px;
+border:solid 1px #aacfe4;
+width:200px;
+margin:2px 0 20px 10px;
+}
+#stylized button{
+clear:both;
+margin-left:150px;
+width:125px;
+height:31px;
+background:#666666 no-repeat;
+text-align:center;
+line-height:31px;
+color:#FFFFFF;
+font-size:11px;
+font-weight:bold;
+}

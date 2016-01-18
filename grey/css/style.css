@@ -1,0 +1,112 @@
+/* Getting the new tags to behave */
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {display:block}
+mark, rp, rt, ruby, summary, time {display:inline}
+/* Left & Right alignment */
+.left {float:left}
+.right {float:right}
+.wrapper {width:100%;overflow:hidden;color:#000;margin-left:-7px;}
+body {background:url(../images/bg.jpg) top center repeat;border:0;font:13px Arial, Helvetica, sans-serif;color:#323232;line-height:17px}
+.ic, .ic a {border:0;float:right;background:#fff;color:#f00;width:50%;line-height:10px;font-size:10px;margin:-220% 0 0 0;overflow:hidden;padding:0}
+.css3 {border-radius:8px;-moz-border-radius:8px;-webkit-border-radius:8px;box-shadow:0 0 4px rgba(0, 0, 0, .4);-moz-box-shadow:0 0 4px rgba(0, 0, 0, .4);-webkit-box-shadow:0 0 4px rgba(0, 0, 0, .4);behavior:url(js/PIE.htc);position:relative}
+.body1 {background:url(../images/bg_footer.jpg) top center repeat;height:100px}
+.main {margin:0 auto;width:960px;position:relative}
+.block {height:100px}
+.extra {min-height:100%;height:auto !important;height:100%;margin:0 auto -100px}
+body, html {height:100%}
+a {color:#f09e2f;text-decoration:underline;outline:none}
+a:hover {text-decoration:none}
+h1 {float:left;padding:17px 0 0 0}
+h2 {font-size:40px;text-transform:uppercase;font-weight:600;color:#3081c8;line-height:52px;padding:2px 0 33px 0}
+h3 {font-size:20px;color:#fff;color:#fff;padding-left:10px;line-height:57px;margin-top:-25px;margin-bottom:5px;background:#dd0048;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;behavior:url(js/PIE.htc);position:relative;font-weight:600}
+p {padding-bottom:17px}
+/* header */
+header {overflow:hidden;width:100%;height:100%;/*height:494px;*/}
+#logo {background:url(../images/logo.png) no-repeat;display:block;width:410px;height:65px;text-indent:-5000px}
+#top_nav {float:right;padding:0 0 0 0}
+#top_nav li {float:left;padding-left:5px}
+#top_nav a {display:block;background:url(../images/top_nav_bg.gif) no-repeat;width:79px;font-size:13px;line-height:29px;color:#323232;text-align:center;text-decoration:none}
+#top_nav a:hover {color:#fff;background:#323232}
+#menu {width:100%;overflow:hidden;margin-top:22px;margin-bottom:0px;height:57px;overflow:hidden;padding-bottom:1px;border-bottom:5px solid #323232}
+#menu li {float:left}
+#menu li a {display:block;font-size:26px;color:#fff;font-weight:600;padding:0 35px;border-radius:4px 4px 0 0;-moz-border-radius:4px 4px 0 0;-webkit-border-radius:4px 4px 0 0;behavior:url(js/PIE.htc);position:relative;text-decoration:none;text-transform:uppercase;line-height:57px}
+#menu li a:hover, #menu #menu_active a {background:#323232}
+#menu .end a {padding-right:36px}
+.nav1 {background:#dd0048}
+.nav2 {background:#D44A4A}
+.nav3 {background:#D44A4A}
+.nav4 {background:#dd0048}
+.nav5 {background:#D44A4A}
+.tabs {width:100%;overflow:hidden}
+.tabs li {float:left;padding-right:1px}
+.tabs .end {padding:0}
+.tabs a {display:block;width:66px;font-size:13px;line-height:31px;color:#fff;text-transform:uppercase;text-align:center;border-radius:4px 4px 0 0;-moz-border-radius:4px 4px 0 0;-webkit-border-radius:4px 4px 0 0;behavior:url(js/PIE.htc);position:relative;background:url(../images/tabs_bg.gif) bottom repeat-x #3081c8;text-decoration:none}
+.tabs a:hover, .tabs .active {background:url(../images/bg_form.gif) repeat}
+.tabs_cont {border-radius:0 0 4px 4px;-moz-border-radius:0 0 4px 4px;-webkit-border-radius:0 0 4px 4px;behavior:url(js/PIE.htc);position:relative;background:url(../images/bg_form.gif) repeat;padding:30px 35px 28px}
+.img {position:absolute;right:0px;top:203px}
+.text {padding:7px 0 0 36px;width:575px}
+.text h2 {font-size:32px;color:#323232;line-height:40px;padding:4px 0 15px 0;letter-spacing:-1px}
+.text p {font-size:12px;font-weight:bold;color:#323232;line-height:20px;text-align:left;padding-bottom:25px}
+.text img {margin-top:43px}
+/* content */
+#content {padding-top:35px;width:100%;overflow:hidden;padding-bottom:60px}
+.pad_bot1 {padding-bottom:17px}
+.pad_bot2 {padding-bottom:7px}
+.pad_left1 {padding-left:42px}
+.pad {padding:0 13px}
+.marg_bot1 {margin-bottom:17px}
+.marg_right1 {margin-right:18px}
+.marker_1, .marker_2 {display:inline-block;background:url(../images/marker_1.gif) 0 0 no-repeat;width:17px;height:17px}
+.marker_2, .marker_1:hover {background:url(../images/marker_2.gif) 0 0 no-repeat}
+.marker_2:hover {background:url(../images/marker_1.gif) 0 0 no-repeat}
+.under {padding-bottom:20px;border-bottom:1px solid #cccccc;margin-bottom:20px}
+.button {display:inline-block;font-size:16px;color:#fff;background:#f09e2f;line-height:35px;padding:0 16px;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;behavior:url(js/PIE.htc);position:relative;font-weight:600;text-decoration:none;text-transform:uppercase}
+.button:hover {background:#8cbd20}
+.line1 {background:url(../images/line_ver.gif) 320px 0 repeat-y}
+.list1 li {line-height:22px}
+.list1 li a {padding-left:13px;background:url(../images/marker_3.gif) 0 5px no-repeat}
+.select-big {width: 80px !important;}
+/* footer */
+footer {padding-top:31px;text-align:center;line-height:18px;color:#fff}
+footer a {color:#439deb}
+/* forms */
+#ContactForm {margin-top:-10px;line-height:29px;font-weight:bold;width:638px}
+#ContactForm a {margin-left:10px;float:right;width:86px;text-align:center;padding:0}
+#ContactForm .input {float:right;margin-right:222px;width:335px;height:17px;border:1px solid #dcdcdc;background:#fff;padding:5px;margin-bottom:6px;color:#323232;font:13px Arial, Helvetica, sans-serif}
+#ContactForm textarea {overflow:auto;float:right;width:557px;height:117px;border:1px solid #dcdcdc;background:#fff;padding:5px;margin-bottom:16px;color:#323232;font:13px Arial, Helvetica, sans-serif}
+#form_1 {color:#fff;line-height:24px}
+#form_1 .input {float:right;background:#fff;width:133px;padding:1px 8px;font:12px Arial, Helvetica, sans-serif ;color:#7f7f7f;height:16px;margin-top:3px}
+#form_1 a {color:#439deb}
+#form_1 .radio {float:left;padding-right:16px}
+#form_1 .radio.end {padding-right:0}
+#form_1 .radio input {float:left;margin:5px 5px 0 0px;height:12px;width:12px;overflow:hidden;padding:0}
+#form_1 .check_box {margin-top:12px}
+#form_1 .input2 {width:62px}
+#form_1 select {width:58px;height:18px;padding:1px;margin-left:5px;margin-top:5px;display:inline-block}
+#form_1 .button {font-size:12px;color:#fff;width:116px;line-height:26px;text-decoration:none;text-transform:uppercase;text-align:center;background:#3081c8;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;behavior:url(js/PIE.htc);position:relative;margin:12px 0 5px 5px ;padding:5}
+#ContactForm {margin-top:-10px;line-height:29px;font-weight:bold;}
+#LoginForm .input {float:right;width:90px;height:17px;border:1px solid #dcdcdc;background:#fff;padding:5px 5px;margin-bottom:6px;color:#323232;font:13px Arial, Helvetica, sans-serif}
+#SearchForm .input {width:90px;height:17px;border:1px solid #dcdcdc;background:#fff;padding:5px 5px;margin-bottom:6px;color:#323232;font:13px Arial, Helvetica, sans-serif}
+
+/* 
+	Generic Styling, for Desktops/Laptops 
+	*/
+	table { 
+		width: 100%; 
+		border-collapse: collapse; 
+	}
+	/* Zebra striping */
+	tr:nth-of-type(odd) { 
+		background: #eee; 
+	}
+	th { 
+		background: #333; 
+		color: white; 
+		font-weight: bold; 
+	}
+	td, th { 
+		padding: 6px; 
+		border: 1px solid #ccc; 
+		text-align: left; 
+	}
+	
+	
